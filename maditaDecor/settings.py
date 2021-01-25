@@ -30,6 +30,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+BOT_TOKEN = '1512163482:AAFYXKHprKR0AXPnRueu43OYtE7JyQB2LM4'
+BOT_URL = "https://api.telegram.org/bot/%s/"%BOT_TOKEN
+
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 MEDIA_URL = '/media/'
