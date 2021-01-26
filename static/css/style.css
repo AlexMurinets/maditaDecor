@@ -2,7 +2,7 @@
 
 body{
     scroll-behavior: smooth !important;
-    -webkit-scroll-beg
+
 }
 
 .img-logo{
@@ -80,4 +80,14 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.change-button{
+    outline: none !important;
+    background: white;
+    border: 1px solid grey;
+    border-radius: 4px;
+    width: 25px;
+}
+.change-button:hover{
+    font-size: 10px;
 }
